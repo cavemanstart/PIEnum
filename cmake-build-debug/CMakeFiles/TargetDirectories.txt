@@ -1,0 +1,14 @@
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/CMakeFiles/Enumerator.out.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/CMakeFiles/edit_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/CMakeFiles/rebuild_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/CMakeFiles/EdgeList2CSR.out.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/CMakeFiles/GenerateVertexPairs.out.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/CMakeFiles/edit_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/CMakeFiles/rebuild_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/CMakeFiles/io.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/CMakeFiles/graph.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/CMakeFiles/log.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/CMakeFiles/edit_cache.dir
+D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/CMakeFiles/rebuild_cache.dir

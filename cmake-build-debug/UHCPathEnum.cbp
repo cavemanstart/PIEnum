@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UHCPathEnum"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\enumerator\;CMake Files\toolset\;CMake Files\util\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Enumerator.out">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Enumerator.out.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 Enumerator.out"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Enumerator.out/fast">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Enumerator.out.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 Enumerator.out/fast"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/enumerator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EdgeList2CSR.out">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/EdgeList2CSR.out.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 EdgeList2CSR.out"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EdgeList2CSR.out/fast">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/EdgeList2CSR.out.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 EdgeList2CSR.out/fast"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GenerateVertexPairs.out">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/GenerateVertexPairs.out.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 GenerateVertexPairs.out"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GenerateVertexPairs.out/fast">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/GenerateVertexPairs.out.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 GenerateVertexPairs.out/fast"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/toolset/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/libio.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 io"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io/fast">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/libio.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 io/fast"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/libgraph.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 graph"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph/fast">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/libgraph.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 graph/fast"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="log">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/liblog.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 log"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="log/fast">
+				<Option output="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/liblog.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_LOG"/>
+					<Add option="-DTIME_RESULTS"/>
+					<Add directory="D:/workspace/cLionWorkSpace/UHCPathEnum-main"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="d:\program\mingw\mingw\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 log/fast"/>
+					<CompileFile command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program/mingw/MinGW/bin/mingw32-make.exe -f &quot;D:/workspace/cLionWorkSpace/UHCPathEnum-main/cmake-build-debug/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/enumerator/main.cpp">
+			<Option target="Enumerator.out"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/enumerator/uhc_enumerator.cpp">
+			<Option target="Enumerator.out"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/enumerator/uhc_enumerator.h">
+			<Option target="Enumerator.out"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/toolset/edgelist_to_csr.cpp">
+			<Option target="EdgeList2CSR.out"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/toolset/generate_queries.cpp">
+			<Option target="GenerateVertexPairs.out"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/graph/graph_operation.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/graph/graph_operation.h">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/graph/uncertain_directed_graph.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/graph/uncertain_directed_graph.h">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/io/io.cpp">
+			<Option target="io"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/io/io.h">
+			<Option target="io"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/log/log.cpp">
+			<Option target="log"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/log/log.h">
+			<Option target="log"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/enumerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\enumerator\"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/toolset/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\toolset\"/>
+		</Unit>
+		<Unit filename="D:/workspace/cLionWorkSpace/UHCPathEnum-main/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

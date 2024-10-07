@@ -1,0 +1,3 @@
+"D:\program\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\log.dir/objects.a
+D:\program\mingw\MinGW\bin\ar.exe qc CMakeFiles\log.dir/objects.a @CMakeFiles\log.dir\objects1.rsp
+D:\program\mingw\MinGW\bin\g++.exe  -std=c++17 -O3  -fopenmp -march=native -g -shared -o liblog.dll -Wl,--out-implib,liblog.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\log.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\log.dir\linkLibs.rsp
